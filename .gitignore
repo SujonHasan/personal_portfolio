@@ -1,0 +1,22 @@
+.env
+.vscode
+.data
+node_modules
+package-lock.json
+yarn.lock
+
+
+# testing
+/coverage
+
+# production
+/build
+
+.env
+.env.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vercel
