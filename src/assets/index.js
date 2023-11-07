@@ -4,6 +4,7 @@ import competitive_Programming from "./images/competitive.png";
 import codingPerson from "./lottie/codingPerson.json";
 import landingPerson from "./lottie/landingPerson.json";
 import email from "./lottie/email.json";
+import underConstruction from "./lottie/underConstruction.json";
 
 
 export {
@@ -12,5 +13,6 @@ export {
     competitive_Programming,
     codingPerson,
     landingPerson,
-    email
+    email,
+    underConstruction,
 }

@@ -6,7 +6,7 @@ const greeting = {
     title1: "Hi, I'm",
     title2: "Sujon Hasan",
     SubTitle: (
-        "As a MERN stack developer, I specialize in building full-stack web applications using MongoDB, Express, React, and Node.js. With a passion for coding and a dedication to clean, efficient, and well-organized code, I strive to create applications that deliver exceptional user experiences."
+        "As a MERN stack developer, I building full-stack web applications using MongoDB, Express, React, and Node.js. With a passion for coding and a dedication to clean, efficient, and well-organized code. Solved 950+ problems on various online judges"
     ),
     resumeLink: "https://drive.google.com/uc?export=download&id=1yVUzjBRdPb3_Gt0KJ5Z9Xgf9eEUHWZ7e",
     displayGreeting: true,//set true to display this sectin, default to true
@@ -21,21 +21,11 @@ const socialMediaLinks = {
     // display: true // Set true to display this section, defaults to false
 };
 
-// const manuItems = <>
-//     <li> <Link className='py-3 px-2 inline-block' to="/" >Home</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/about" >About</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/projects" >Projects</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/skills" >Skills</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/achievments" >Achievments</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/problem_solving" >Problem Solving</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/blogs" >Blogs</Link> </li>
-//     <li> <Link className='py-3 px-2 inline-block' to="/contact" >Contact me</Link> </li>
-// </>
 
 const manuItems = [
 
     { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
+    // { name: "About", link: "/about" },
     { name: "Project", link: "/projects" },
     { name: "Skills", link: "/skills" },
     { name: "Achievments", link: "/achievments" },
@@ -97,6 +87,19 @@ const skillsSection = {
     display: true // Set false to hide this section, defaults to true
 }
 
+const achievementSection = {
+    title: emoji("Achievements And Certifications 🏆 "),
+    subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
+}
+
+const projectSection = {
+    title: "Projects",
+}
+
+const blogSections = {
+    title: "Blogs",
+}
+
 const problemSolving = {
 
     title: "Problem Solving Activities",
@@ -140,4 +143,7 @@ export {
     problemSolving,
     contactMe,
     manuItems,
+    achievementSection,
+    projectSection,
+    blogSections,
 }

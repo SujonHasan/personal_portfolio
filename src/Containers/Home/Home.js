@@ -18,7 +18,7 @@ const Home = () => {
                 <h1 className='font-serif text-6xl sm:text-4xl lg:text-7xl font-bold flex'> {greeting.title2}  </h1>
 
 
-                <p className='my-10 text-gray-600 text-1xl lg:text-3xl'>{greeting.SubTitle}</p>
+                <p className='my-10 font-light text-gray-600 text-1xl lg:text-3xl'>{greeting.SubTitle}</p>
                 
                 <SocialMedia></SocialMedia>
 
