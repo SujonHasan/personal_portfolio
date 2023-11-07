@@ -1,4 +1,5 @@
 import emoji from "react-easy-emoji";
+import { codeforces, hackerRank, competitive_Programming } from "./assets";
 
 const greeting = {
     username: "Sujon Hasan",
@@ -20,6 +21,29 @@ const socialMediaLinks = {
     // display: true // Set true to display this section, defaults to false
 };
 
+// const manuItems = <>
+//     <li> <Link className='py-3 px-2 inline-block' to="/" >Home</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/about" >About</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/projects" >Projects</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/skills" >Skills</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/achievments" >Achievments</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/problem_solving" >Problem Solving</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/blogs" >Blogs</Link> </li>
+//     <li> <Link className='py-3 px-2 inline-block' to="/contact" >Contact me</Link> </li>
+// </>
+
+const manuItems = [
+
+    { name: "Home", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Project", link: "/projects" },
+    { name: "Skills", link: "/skills" },
+    { name: "Achievments", link: "/achievments" },
+    { name: "Problem Solving", link: "/problem_solving" },
+    { name: "Blogs", link: "/blogs" },
+    { name: "Contact", link: "/contact" },
+]
+
 const skillsSection = {
 
     title: "Proficient in:",
@@ -30,7 +54,7 @@ const skillsSection = {
         ),
         emoji("⚡ Javascript"),
         emoji(
-            "⚡ Algorithmic Problem Solving (solved 500+ problems on various online platforms)"
+            "⚡ Algorithmic Problem Solving (solved 950+ problems on various online platforms)"
         ),
         emoji("⚡ Data Structures and Algorithms"),
         emoji("⚡ Competitive Programming"),
@@ -73,8 +97,47 @@ const skillsSection = {
     display: true // Set false to hide this section, defaults to true
 }
 
+const problemSolving = {
+
+    title: "Problem Solving Activities",
+    subTitle: "My Competitive Programming Journey",
+    site: [
+        {
+            icon: codeforces,
+            title: "Newbie",
+            subTitle: "Highest Rating 1073",
+            link: "https://codeforces.com/profile/sujon_hasan",
+            name: "sujon_hasan",
+        },
+        {
+            icon: hackerRank,
+            title: "200+ Problems Solved",
+            subTitle: "Data Structure and Algorithmic Problem solved",
+            link: "https://www.hackerrank.com/profile/Sujon_Hasan",
+            name: "sujon_hasan"
+        },
+        {
+            icon: competitive_Programming,
+            title: "950+ Problems Solved",
+            subTitle: "Competitive Programming Problems(Algorithmic, Data Structure Based and Others)",
+            link: "https://github.com/SujonHasan/ProblemSolvingStats",
+            name: "link"
+        },
+    ]
+}
+
+const contactMe = {
+
+    title: "Reach Out to me!",
+    subTitle: "IF YOU WANT TO HIRE ME OR HAVE OTHER QUERIES, THEN KNOCK ME ANYTIME. I TRY TO REPLY WITHIN 24 HOURS.",
+    mail: "sujonhasan171@gmail.com",
+}
+
 export {
     greeting,
     socialMediaLinks,
     skillsSection,
+    problemSolving,
+    contactMe,
+    manuItems,
 }
