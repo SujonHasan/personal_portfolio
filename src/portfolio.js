@@ -6,9 +6,9 @@ const greeting = {
     title1: "Hi, I'm",
     title2: "Sujon Hasan",
     SubTitle: (
-        "As a MERN stack developer, I building full-stack web applications using MongoDB, Express, React, and Node.js. With a passion for coding and a dedication to clean, efficient, and well-organized code. Solved 950+ problems on various online judges"
+        "As a MERN stack developer, I building full-stack web applications using MongoDB, Express, React, and Node.js. With a passion for coding and a dedication to clean, efficient, and well-organized code. Solved 750+ problems on various online judges"
     ),
-    resumeLink: "https://drive.google.com/uc?export=download&id=1yVUzjBRdPb3_Gt0KJ5Z9Xgf9eEUHWZ7e",
+    resumeLink: "https://drive.google.com/uc?export=download&id=1aCpA1p81YJbzLet9-RQbWN2zGYIQ-OdX",
     displayGreeting: true,//set true to display this sectin, default to true
 }
 
@@ -44,7 +44,7 @@ const skillsSection = {
         ),
         emoji("⚡ Javascript"),
         emoji(
-            "⚡ Algorithmic Problem Solving (solved 950+ problems on various online platforms)"
+            "⚡ Algorithmic Problem Solving (solved 750+ problems on various online platforms)"
         ),
         emoji("⚡ Data Structures and Algorithms"),
         emoji("⚡ Competitive Programming"),

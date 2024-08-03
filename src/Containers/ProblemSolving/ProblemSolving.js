@@ -21,7 +21,7 @@ const ProblemSolving = () => {
                                         <h2 className="card-title justify-center">{value.title}</h2>
                                         <p className='text-gray-600'>{value.subTitle}</p>
                                         <div className="card-actions justify-center">
-                                            <button className="px-5 py-2 rounded-full bg-slate-400"> <a href={value.link}> {value.name}</a> </button>
+                                            <button className="px-5 py-2 rounded-full text-white bg-slate-400"> <a href={value.link} target="_blank" rel="noreferrer"> {value.name}</a> </button>
                                         </div>
                                     </div>
                                 </div>
